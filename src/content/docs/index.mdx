@@ -1,0 +1,53 @@
+---
+title: VCF 9 Deployment Guide
+description: Comprehensive guide for VMware Cloud Foundation 9.0 deployment
+template: splash
+hero:
+  tagline: Complete reference for VCF 9.0 implementation, migration from 4.5/5.2, and Dell hardware compatibility
+  actions:
+    - text: Get Started
+      link: /overview/summary/
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/vmware/vcf-security-and-compliance-guidelines
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Quick Navigation
+
+<CardGrid stagger>
+  <Card title="Executive Summary" icon="document">
+    High-level overview of VCF 9.0 deployment requirements and migration path from 4.5 → 5.2 → 9.0
+    [Read more →](/overview/summary/)
+  </Card>
+  <Card title="Architecture" icon="setting">
+    New Fleet hierarchy, component versions (BOM), and key changes from previous versions
+    [Read more →](/overview/architecture/)
+  </Card>
+  <Card title="Requirements" icon="list-format">
+    vSphere, vSAN, NSX, network, DNS/NTP, and licensing requirements
+    [Read more →](/requirements/vsphere/)
+  </Card>
+  <Card title="Dell Hardware" icon="laptop">
+    Certified PowerEdge servers, BIOS settings, firmware versions, and driver information
+    [Read more →](/hardware/dell-servers/)
+  </Card>
+</CardGrid>
+
+## Key Information
+
+| Aspect | Details |
+|--------|---------|
+| **VCF Version** | 9.0.0.0 (Released June 17, 2025) |
+| **Upgrade Path** | 4.5 → 5.2 → 9.0 (no direct 4.5 → 9.0) |
+| **Key Change** | SDDC Manager UI deprecated → Use VCF Operations |
+| **Mandatory Components** | VCF Operations, VCF Automation, Fleet Management |
+| **Prepared For** | Shyam |
+| **Last Updated** | February 2026 |
+
+---
+
+*Prepared by Wags*
