@@ -1,7 +1,10 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import cloudflare from '@astrojs/cloudflare';
 
 export default defineConfig({
+  output: 'static',
+  adapter: cloudflare(),
   integrations: [
     starlight({
       title: 'VCF 9 Deployment Guide',
