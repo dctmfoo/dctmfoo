@@ -2,7 +2,7 @@
 
 Solutions architect building **agentic engineering workflows** — I run OpenAI Codex and Claude Code side-by-side, in parity, on real production codebases, and I've spent 20+ years deploying enterprise software into regulated industries (pharma, financial services, government, oil & gas).
 
-Currently: Senior Principal Architect at OpenText Professional Services, where I embed with enterprise engineering teams on cloud, GenAI, and content-platform programs — increasingly with coding agents as first-class actors in delivery.
+Currently: Senior Principal Architect in OpenText's Customer Success Organization, where I embed with enterprise engineering teams on cloud, GenAI, and content-platform programs — increasingly with coding agents as first-class actors in delivery.
 
 ## Selected work
 
