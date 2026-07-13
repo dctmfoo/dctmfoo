@@ -10,6 +10,7 @@ Currently: Senior Principal Architect at OpenText Professional Services, where I
 |---|---|
 | [intelli-expense](https://github.com/dctmfoo/intelli-expense) | On-device receipt scanning for iPhone + Mac (Apple **Foundation Models**) with a review-gated **agent import bridge** for Codex and Claude Code |
 | [stepback](https://github.com/dctmfoo/stepback) | Hands-free workout routine builder & player (iPad/iPhone/Mac) with an **agent bridge** — ask your agent for a training week, it lands in the app, review-gated |
+| [goal-campaigns](https://github.com/dctmfoo/goal-campaigns) | Pattern for **multi-day autonomous campaigns with Codex goals** — adversarial convergence gates, state-file governance, and a demo API + k6 harness |
 | [hanuman-dev](https://github.com/dctmfoo/hanuman-dev) | Multi-model plan→work→review orchestrator with dedicated **Codex** and **Claude Code** adapters |
 | [openai-agents](https://github.com/dctmfoo/openai-agents) | Personal AI companion on the **OpenAI Agents SDK** (TypeScript) with deny-by-default tool policy gating |
 | [workspace-bootstrap](https://github.com/dctmfoo/workspace-bootstrap) | Agent-governance scaffold: AGENTS.md/CLAUDE.md contracts, lifecycle hooks, session journals — for Codex and Claude Code |
