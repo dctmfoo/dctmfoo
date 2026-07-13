@@ -11,6 +11,7 @@ Currently: Senior Principal Architect at OpenText Professional Services, where I
 | [hanuman-dev](https://github.com/dctmfoo/hanuman-dev) | Multi-model plan→work→review orchestrator with dedicated **Codex CLI** and **Claude Code** adapters |
 | [openai-agents](https://github.com/dctmfoo/openai-agents) | Personal AI companion on the **OpenAI Agents SDK** (TypeScript) with deny-by-default tool policy gating |
 | [workspace-bootstrap](https://github.com/dctmfoo/workspace-bootstrap) | Agent-governance scaffold: AGENTS.md/CLAUDE.md contracts, lifecycle hooks, session journals — for Codex and Claude Code |
+| [doot-companion](https://github.com/dctmfoo/doot-companion) | Sanitized 215K-LoC personal AI companion snapshot with governed Codex CLI/Claude Code contributors and 271 verified tests |
 | [session-journal](https://github.com/dctmfoo/session-journal) | Installable continuity discipline with shared Claude Code/Codex hooks, agent-led adoption, secrets guard, and cross-platform tests |
 | [agent-skills](https://github.com/dctmfoo/agent-skills) | Reusable skills for Claude Code and Codex CLI |
 | [simpalarm](https://github.com/dctmfoo/simpalarm) | Shipped macOS menu-bar alarm app, distributed via its own [Homebrew tap](https://github.com/dctmfoo/homebrew-simpalarm) |
