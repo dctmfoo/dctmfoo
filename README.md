@@ -8,6 +8,8 @@ Currently: Senior Principal Architect at OpenText Professional Services, where I
 
 | Project | What it is |
 |---|---|
+| [gaurava](https://github.com/dctmfoo/gaurava) | **Shipped App Store** health & medication tracker (watchOS + widgets, Hindi/Tamil/Telugu) — full source of a production iOS app built end-to-end with **Codex** (incl. the Build iOS Apps plugin) and **Claude Code** |
+| [withful](https://github.com/dctmfoo/withful) | **Shipped App Store** family-moments journal, live in 175 countries (en/fr/zh) — SwiftData + CloudKit private sync, 5 widget surfaces, App Intents/Siri, agent-governed delivery |
 | [intelli-expense](https://github.com/dctmfoo/intelli-expense) | On-device receipt scanning for iPhone + Mac (Apple **Foundation Models**) with a review-gated **agent import bridge** for Codex and Claude Code |
 | [stepback](https://github.com/dctmfoo/stepback) | Hands-free workout routine builder & player (iPad/iPhone/Mac) with an **agent bridge** — ask your agent for a training week, it lands in the app, review-gated |
 | [goal-campaigns](https://github.com/dctmfoo/goal-campaigns) | Pattern for **multi-day autonomous campaigns with Codex goals** — adversarial convergence gates, state-file governance, and a demo API + k6 harness |
@@ -21,7 +23,7 @@ Currently: Senior Principal Architect at OpenText Professional Services, where I
 
 **Pattern: the agent write bridge.** Intelli-Expense and StepBack both ship the same pattern: a local folder-drop protocol that lets a coding agent (Codex / Claude Code) author in-app data — receipts, workouts, routines, weekly plans — behind explicit human review. The agent reads the app's manifest, extracts fields conversationally, and drops JSON commands into an app-owned inbox; the running app validates, persists, and syncs. Agents never touch the data store, and the protocol has no delete capability. Protocol docs: [intelli-expense/plugin](https://github.com/dctmfoo/intelli-expense/tree/main/plugin) · [stepback/plugin](https://github.com/dctmfoo/stepback/tree/main/plugin).
 
-Two consumer apps on the App Store — [Gaurava](https://apps.apple.com/in/app/gaurava/id6775155354) (watchOS + widgets, localized in Hindi/Tamil/Telugu) and [withful: family moments](https://apps.apple.com/in/app/withful-family-moments/id6782300577) (available in 175 countries) — built end-to-end with agent workflows, including Codex's Build iOS Apps plugin. Most of my day-job work (enterprise Documentum/cloud deployments, agentic ops tooling, LLM fine-tuning POCs) lives in private repos.
+Two consumer apps on the App Store — [Gaurava](https://apps.apple.com/in/app/gaurava/id6775155354) (watchOS + widgets, localized in Hindi/Tamil/Telugu) and [withful: family moments](https://apps.apple.com/in/app/withful-family-moments/id6782300577) (available in 175 countries) — built end-to-end with agent workflows, including Codex's Build iOS Apps plugin — and both are now **fully open source** (see the table above). Most of my day-job work (enterprise Documentum/cloud deployments, agentic ops tooling, LLM fine-tuning POCs) lives in private repos.
 
 Also active as [dctmfoo123](https://github.com/dctmfoo123).
 
